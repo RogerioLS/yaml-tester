@@ -21,7 +21,8 @@ jobs:
             ls
             cd tester_roger-42sp/
             ls
-        - name: List files in the repository
-          run: |
-            ls ${{ github.workspace }}
-        - run: echo "🍏 This job's status is ${{ job.status }}."
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          ls
