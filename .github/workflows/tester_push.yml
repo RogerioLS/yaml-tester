@@ -15,9 +15,11 @@ jobs:
       steps:
         - uses: actions/checkout@v2
           with:
-            repository: RogerioLS/Push_Swap-42sp
-        - name: make
-          run: make fclean re
+            repository: RogerioLS/tester_run_clone
+            path: teste_run_clone/tester_roger-42sp
+        - name: tester
+          run: |
+            ./push_swap_teste.sh 5 10
         - name: List files in the repository
           run: |
             ls ${{ github.workspace }}
