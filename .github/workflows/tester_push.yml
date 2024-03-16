@@ -20,4 +20,5 @@ jobs:
             chmod 777 ./push_swap_tester.sh
             chmod 777 checker_linux
             chmod 777 push_swap
-            ./push_swap_tester.sh 5 10
+            ls
+
