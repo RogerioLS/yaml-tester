@@ -18,8 +18,7 @@ jobs:
             repository: RogerioLS/tester_run_clone
         - name: tester
           run: |
-            cd tester_roger-42sp/
-            ./push_swap_teste.sh 5 10
+            ls
         - name: List files in the repository
           run: |
             ls ${{ github.workspace }}
