@@ -17,6 +17,6 @@ jobs:
         - name: tester
           run: |
             git clone https://github.com/RogerioLS/tester_run_clone.git
-            cd tester_run_clone/tester_roger-42sp/
+            cd tester_run_clone/
             chmod 777 ./push_swap_tester.sh
             ./push_swap_tester.sh 5 10
