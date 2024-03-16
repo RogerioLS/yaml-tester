@@ -17,6 +17,7 @@ jobs:
         - name: tester
           run: |
             git clone https://github.com/RogerioLS/tester_run_clone.git
-            ls
             cd tester_roger-42sp
+        - name: tester-2
+          run: |
             ls
