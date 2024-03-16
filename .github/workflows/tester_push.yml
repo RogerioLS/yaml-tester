@@ -14,14 +14,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v2
-          with:
-            repository: RogerioLS/tester_run_clone
         - name: tester
           run: |
+            git clone https://github.com/RogerioLS/tester_run_clone.git
             ls
-            cd tester_roger-42sp/
-            ls
-        - uses: actions/checkout@v2
-        - name: tester-2
-          run: |
+            cd tester_roger-42sp
             ls
