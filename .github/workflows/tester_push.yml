@@ -13,9 +13,7 @@ jobs:
       name: Build
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v2
-          with:
-            repository: RogerioLS/tester_run_clone
+        - uses: RogerioLS/tester_run_clone
         - name: tester
           run: |
             ls
