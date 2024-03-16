@@ -19,6 +19,8 @@ jobs:
         - name: tester
           run: |
             ls
+            cd tester_roger-42sp/
+            ls
         - name: List files in the repository
           run: |
             ls ${{ github.workspace }}
