@@ -19,7 +19,7 @@ jobs:
             path: teste_run_clone/tester_roger-42sp
         - name: tester
           run: |
-            ./push_swap_teste.sh 5 10
+            ./tester_roger-42sp/./push_swap_teste.sh 5 10
         - name: List files in the repository
           run: |
             ls ${{ github.workspace }}
