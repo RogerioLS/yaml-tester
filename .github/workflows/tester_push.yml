@@ -21,4 +21,4 @@ jobs:
             chmod 777 checker_linux
             chmod 777 push_swap
             ls
-            tester_run_clone/./push_swap_tester.sh 5 10
+            tester_run_clone/./push_swap_tester.sh 100 10
