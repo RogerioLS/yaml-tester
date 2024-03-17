@@ -16,7 +16,7 @@ jobs:
         - uses: actions/checkout@v2
         - name: tester
           run: |
-            git clone https://github.com/RogerioLS/tester_run_clone
+            wget https://github.com/RogerioLS/Push_Swap-42sp/blob/main/tester_roger-42sp/push_swap_tester.sh
             chmod 777 tester_run_clone/push_swap_tester.sh
             chmod 777 checker_linux
             chmod 777 push_swap
