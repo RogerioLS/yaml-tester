@@ -17,8 +17,8 @@ jobs:
         - name: tester
           run: |
             wget https://github.com/RogerioLS/Push_Swap-42sp/blob/main/tester_roger-42sp/push_swap_tester.sh
-            chmod 777 tester_run_clone/push_swap_tester.sh
+            chmod 777 push_swap_tester.sh
             chmod 777 checker_linux
             chmod 777 push_swap
             ls
-            tester_run_clone/./push_swap_tester.sh 100 10
+            ./push_swap_tester.sh 100 10
